@@ -1,2 +1,0 @@
-# indabaxng.github.io
-Webpage
