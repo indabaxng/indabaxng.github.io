@@ -1,584 +1,584 @@
-    <section class="team1 cid-sFp8bj4dz0" id="team1-s">
-        <div class="container align-center">
-            <div class="row media-row">
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Robert.jpeg" alt="" title="">
+<section class="team1 cid-sFp8bj4dz0" id="team1-s">
+    <div class="container align-center">
+        <div class="row media-row">
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Robert.jpeg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Robert John</p>
                     </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Robert John</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Versus
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/robert-john-b137952b/" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/robert_thas" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Versus
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/robert-john-b137952b/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/robert_thas" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
                     </div>
                 </div>
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/olawale.jpeg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Abimbola Olawale Victor</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Creative Advanced Technologies 
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/bimbolawale" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/bimbolawale" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/ibrahim.jpeg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Ibrahim Olagoke</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Software Engineer, Stata Insight Technologies
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/ibrahimgoke/" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/ibrahimgoke" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Ahmed.jpeg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Ahmed Olanrewaju</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                University of Ibadan
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/ahmed-olanrewaju-093b7b4a/" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/abono2000" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/DOSU.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Emmanuel Oladosu</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Software Engineer, University of Ibadan.
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/emmanuel-oladosu-94272820b/" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/litnuel" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/dami.jpeg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Damilola Fakorede</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Software Engineer, University of Ibadan
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="linkedin.com/in/fakorededamilola" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/Dfako6" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Ezekiel.jpeg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Ezekiel Adebayo Ogundepo</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Fellow, Global Partnership for Sustainable Development Data
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://linkedin.com/in/ezekiel-ogundepo" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/gbganalyst" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Adeola.jpeg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Adeola Lawal</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Alluvium
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/adeola-lawal" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/azlwal_lawal" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Adeyinka.jpeg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Dr. Adeyinka Oresanya</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/adeyinkaoresanya/" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/TechieGriot" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Ayodele.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Ayodele Awokoya</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                McPherson University
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/ayodeleawokoya" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/ayodelelifted" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Kingsley Owadara.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Kingsley Owadara</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Pan-Africa Center for AI Ethics
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/kingsley-owadara" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="twitter.com/kingsbami" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/John.jpeg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Ayorinde John Oluwafemi</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="#" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="#" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Bilikisu Olatunji.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Bilikisu Olatunji</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/bilikisuolatunji" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/qbwoa" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/james.jpeg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Tope James Moses</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/tope-james-moses-ccs-6ab49b139/" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/TopeJames_Moses" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/nasirudeen.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Nasirudeen Raheem</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Nexford University                            
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/nasirudeen-raheem-mscds-926b23157" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/Nasereliver" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Odeajo.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Israel Odeajo</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Data Coach, Join Momentum UK                            
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/odeajo-israel" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/israelkingz1" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/jimin wuese.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Jimin Wuese</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Miva Open University
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/jiminwuese/" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- 
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Zainab Ishaq.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Zainab I. Musa</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                GM, Inteliworx Technologies Ltd
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="linkedin.com/in/zainab-ishaq-musa" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/xploreanalytix
-
-                            " target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>                 -->
-                <!-- <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Emeka Ogbuju.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Dr. Emeka Ogbuju</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Federal University Lokoja
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="linkedin.com/in/emekaogbuju" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/emekaogbuju" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>                 -->
-                <!-- <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Stephen Paul.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Stephen Paul</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Thomas Adewumi University
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/iamstepaul" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/iamstepaul" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>                 -->
-                <!-- <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Timothy Ogunleye .jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Timothy A.Ogunleye</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Osun State University
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/timothy-ogunleye" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/Tim_R_2024?s=20" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>                 -->
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/David Akanji.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">David Olubukola Akanji</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                Data Analyst,Data Scientists Network
-
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/davidakanjii/" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/davidakanjii
-                            " target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/Roselyn Isimeto.jpg" alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Dr. Roselyn Isimeto</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                University of Lagos
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/roselyn-isimeto-phd-0454b744/" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/isimetoroselyn" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="team-item col-lg-3 col-md-6">
-                    <div class="item-image">
-                        <img src="assets/2024/joseph.jpg"  alt="" title="">
-                    </div>
-                    <div class="item-caption py-3">
-                        <div class="item-name px-2">
-                            <p class="mbr-fonts-style display-5">Dr. Joseph Bamidele Awotunde</p>
-                        </div>
-                        <div class="item-role px-2">
-                            <p>Co-organiser</p>
-                            <code>
-                                University of Ilorin
-                            </code>
-                        </div>
-                        <div class="item-social pt-2">
-                            <a href="https://www.linkedin.com/in/awotunde-joseph-bamidele-75467a127/" target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
-                            </a>
-                            <a href="https://twitter.com/AwotundeB
-                            " target="_blank">
-                                <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
             </div>
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/olawale.jpeg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Abimbola Olawale Victor</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Creative Advanced Technologies 
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/bimbolawale" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/bimbolawale" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/ibrahim.jpeg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Ibrahim Olagoke</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Software Engineer, Stata Insight Technologies
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/ibrahimgoke/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/ibrahimgoke" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Ahmed.jpeg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Ahmed Olanrewaju</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            University of Ibadan
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/ahmed-olanrewaju-093b7b4a/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/abono2000" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/DOSU.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Emmanuel Oladosu</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Software Engineer, University of Ibadan.
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/emmanuel-oladosu-94272820b/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/litnuel" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/dami.jpeg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Damilola Fakorede</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Software Engineer, University of Ibadan
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="linkedin.com/in/fakorededamilola" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/Dfako6" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Ezekiel.jpeg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Ezekiel Adebayo Ogundepo</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Fellow, Global Partnership for Sustainable Development Data
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://linkedin.com/in/ezekiel-ogundepo" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/gbganalyst" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Adeola.jpeg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Adeola Lawal</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Alluvium
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/adeola-lawal" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/azlwal_lawal" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Adeyinka.jpeg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Dr. Adeyinka Oresanya</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/adeyinkaoresanya/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/TechieGriot" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Ayodele.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Ayodele Awokoya</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            McPherson University
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/ayodeleawokoya" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/ayodelelifted" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Kingsley Owadara.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Kingsley Owadara</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Pan-Africa Center for AI Ethics
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/kingsley-owadara" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="twitter.com/kingsbami" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/John.jpeg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Ayorinde John Oluwafemi</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="#" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="#" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Bilikisu Olatunji.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Bilikisu Olatunji</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/bilikisuolatunji" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/qbwoa" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/james.jpeg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Tope James Moses</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/tope-james-moses-ccs-6ab49b139/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/TopeJames_Moses" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/nasirudeen.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Nasirudeen Raheem</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Nexford University                            
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/nasirudeen-raheem-mscds-926b23157" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/Nasereliver" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Odeajo.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Israel Odeajo</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Data Coach, Join Momentum UK                            
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/odeajo-israel" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/israelkingz1" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/jimin wuese.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Jimin Wuese</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Miva Open University
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/jiminwuese/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Zainab Ishaq.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Zainab I. Musa</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            GM, Inteliworx Technologies Ltd
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="linkedin.com/in/zainab-ishaq-musa" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/xploreanalytix
+
+                        " target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>                 -->
+            <!-- <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Emeka Ogbuju.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Dr. Emeka Ogbuju</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Federal University Lokoja
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="linkedin.com/in/emekaogbuju" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/emekaogbuju" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>                 -->
+            <!-- <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Stephen Paul.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Stephen Paul</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Thomas Adewumi University
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/iamstepaul" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/iamstepaul" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>                 -->
+            <!-- <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Timothy Ogunleye .jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Timothy A.Ogunleye</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Osun State University
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/timothy-ogunleye" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/Tim_R_2024?s=20" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>                 -->
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/David Akanji.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">David Olubukola Akanji</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            Data Analyst,Data Scientists Network
+
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/davidakanjii/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/davidakanjii
+                        " target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/Roselyn Isimeto.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Dr. Roselyn Isimeto</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            University of Lagos
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/roselyn-isimeto-phd-0454b744/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/isimetoroselyn" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/2024/joseph.jpg"  alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">Dr. Joseph Bamidele Awotunde</p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Co-organiser</p>
+                        <code>
+                            University of Ilorin
+                        </code>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://www.linkedin.com/in/awotunde-joseph-bamidele-75467a127/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                        <a href="https://twitter.com/AwotundeB
+                        " target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
         </div>
-    </section>
+    </div>
+</section>
