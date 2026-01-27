@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/theme/css/style.css">
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/hero-improvements.css" type="text/css">
 </head>
 
 <body>
@@ -81,8 +82,8 @@
             <div class="row justify-content-md-center">
                 <div class="mbr-white col-md-10">
                     <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2"><br><br>Deep
-                        Learning Indaba𝕏<br><span style="font-weight: normal;">Nigeria 2026</span></h1>
-                    <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">Building AI That Works: Contextual, Responsible, and Inclusive Innovation</p>
+    Learning Indaba<span class="accent">𝕏</span><br><span style="font-weight: normal;">Nigeria 2026</span></h1>
+                    <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">Building AI That Works:<br>Contextual, Responsible, and Inclusive Innovation</p>
                     <div class="mbr-section-btn align-center">
                     </div>
                 </div>
@@ -466,6 +467,45 @@
     <script src="assets/mbr-clients-slider/mbr-clients-slider.js"></script>
     <script src="assets/parallax/jarallax.min.js"></script>
     <script src="assets/theme/js/script.js"></script>
+    
+    <script>
+    // Back to top button and sticky navbar
+    document.addEventListener('DOMContentLoaded', function() {
+        // Create back to top button
+        const backToTop = document.createElement('button');
+        backToTop.id = 'back-to-top';
+        backToTop.innerHTML = '↑';
+        backToTop.setAttribute('aria-label', 'Back to top');
+        document.body.appendChild(backToTop);
+        
+        // Show/hide button on scroll
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+            
+            // Add scrolled class to navbar
+            const navbar = document.querySelector('.navbar-fixed-top');
+            if (navbar) {
+                if (window.pageYOffset > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            }
+        });
+        
+        // Scroll to top on click
+        backToTop.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
 </body>
 
 </html>

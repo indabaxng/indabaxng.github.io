@@ -1,0 +1,873 @@
+/* Hero Section Visual Improvements */
+/* Author: Custom improvements for IndabaX Nigeria 2026 */
+
+/* ========================================== */
+/* GLOBAL ENHANCEMENTS - SMOOTH SCROLLING    */
+/* ========================================== */
+
+/* Smooth scroll behavior for entire page */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Remove default focus outline and add custom one for accessibility */
+*:focus {
+    outline: 2px solid #0088CC;
+    outline-offset: 2px;
+}
+
+/* Better focus states for interactive elements */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #0088CC;
+    outline-offset: 2px;
+}
+
+/* ========================================== */
+/* STICKY NAVBAR WITH SHRINK EFFECT          */
+/* ========================================== */
+
+/* Navbar transitions */
+.navbar-fixed-top {
+    transition: all 0.4s ease;
+    background: rgba(35, 35, 35, 0.95) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Shrink effect when scrolled */
+.navbar-fixed-top.scrolled {
+    padding: 0.5rem 0 !important;
+    box-shadow: 0 2px 20px rgba(0, 136, 204, 0.15);
+    background-color: rgba(35, 35, 35, 0.98) !important;
+}
+
+.navbar-fixed-top.scrolled .navbar-brand img {
+    height: 3rem !important;
+    transition: height 0.4s ease;
+}
+
+/* Active navigation state */
+.navbar-nav .nav-item .nav-link.active {
+    color: #00BFFF !important;
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 2px;
+    background: #00BFFF;
+    border-radius: 2px;
+}
+
+.navbar-fixed-top.scrolled .nav-link:hover {
+    color: #00BFFF !important;
+}
+
+/* ========================================== */
+/* BACK TO TOP BUTTON                         */
+/* ========================================== */
+
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #00BFFF 0%, #0099CC 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0, 191, 255, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+    z-index: 9999;
+    line-height: 1;
+}
+
+#back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#back-to-top:hover {
+    background: linear-gradient(135deg, #0099CC 0%, #0088BB 100%);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(0, 191, 255, 0.6);
+}
+
+#back-to-top:active {
+    transform: translateY(-2px);
+}
+
+/* ========================================== */
+/* ENTRANCE ANIMATIONS FOR KEY SECTIONS      */
+/* ========================================== */
+
+/* Fade in from bottom animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Only animate key sections (not all sections) */
+.counters,
+.team1,
+.contacts1,
+.cid-svNOiKuPo2,
+.cid-svNCj4p2eV,
+.cid-svNWMusmoM {
+    animation: fadeInUp 0.8s ease-out;
+    animation-fill-mode: both;
+}
+
+/* Hero section special entrance */
+.cid-svNAQrtPyA {
+    animation: none;
+}
+
+.cid-svNAQrtPyA .mbr-white {
+    animation: fadeInUp 1s ease-out 0.3s;
+    animation-fill-mode: both;
+}
+
+/* ========================================== */
+/* ENHANCED BUTTON EFFECTS WITH RIPPLES       */
+/* ========================================== */
+
+/* Ripple effect container */
+.btn {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ripple animation */
+@keyframes ripple {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.btn:active::after {
+    width: 300px;
+    height: 300px;
+    transition: 0s;
+    animation: ripple 0.6s ease-out;
+}
+
+/* Pulsing CTA effect */
+@keyframes pulse-cta {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(0, 191, 255, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 0 15px rgba(0, 191, 255, 0);
+    }
+}
+
+.btn-primary {
+    animation: pulse-cta 2s infinite;
+}
+
+.btn-primary:hover {
+    animation: none;
+}
+
+/* ========================================== */
+/* LOADING AND IMAGE ANIMATIONS               */
+/* ========================================== */
+
+/* Image fade in on load */
+img {
+    animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Loading spinner (if needed) */
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgba(0, 191, 255, 0.2);
+    border-top-color: #00BFFF;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ========================================== */
+/* HERO SECTION                               */
+/* ========================================== */
+
+/* Add dark gradient overlay to hero section for better text contrast */
+.cid-svNAQrtPyA .mbr-overlay {
+    background: linear-gradient(
+        105deg,
+        rgba(15, 23, 42, 0.85) 0%,
+        rgba(30, 41, 59, 0.75) 40%,
+        rgba(51, 65, 85, 0.65) 70%,
+        rgba(71, 85, 105, 0.50) 100%
+    ) !important;
+    opacity: 1 !important;
+}
+
+/* Enhanced text shadows for better legibility - SOFTENED */
+.cid-svNAQrtPyA h1.mbr-section-title {
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6),
+                 0 0 25px rgba(0, 0, 0, 0.4),
+                 0 0 45px rgba(0, 0, 0, 0.2);
+    font-weight: 800 !important;
+    font-size: 3.5rem !important;
+    position: relative;
+    z-index: 2;
+}
+
+/* Add semi-transparent backdrop behind main headline - LIGHTER */
+.cid-svNAQrtPyA h1.mbr-section-title::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110%;
+    height: calc(100% + 40px);
+    background: rgba(15, 23, 42, 0.2) !important;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 12px;
+    z-index: -1;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Make the "X" in IndabaX bright cyan with pulse animation */
+.cid-svNAQrtPyA h1.mbr-section-title span.highlight,
+.cid-svNAQrtPyA h1.mbr-section-title .accent {
+    color: #00BFFF !important;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7),
+                 0 0 20px rgba(0, 191, 255, 0.6),
+                 0 0 40px rgba(0, 191, 255, 0.4);
+    animation: glow-pulse 3s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+    0%, 100% {
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7),
+                     0 0 20px rgba(0, 191, 255, 0.6),
+                     0 0 40px rgba(0, 191, 255, 0.4);
+    }
+    50% {
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7),
+                     0 0 30px rgba(0, 191, 255, 0.8),
+                     0 0 60px rgba(0, 191, 255, 0.6);
+    }
+}
+
+/* Enhanced subtitle/tagline with better alignment */
+.cid-svNAQrtPyA p.mbr-text {
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8),
+                 0 0 15px rgba(0, 0, 0, 0.6);
+    font-size: 1.5rem !important;
+    font-weight: 400;
+    line-height: 1.8 !important;
+    margin-top: 1.5rem !important;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for tagline emphasis */
+.cid-svNAQrtPyA p.mbr-text strong {
+    color: #00BFFF;
+    font-weight: 600;
+}
+
+/* Brighten the left side "IndabaX Nigeria 2026" text */
+.cid-svNAQrtPyA .mbr-section-subtitle {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8),
+                 0 0 15px rgba(0, 0, 0, 0.6);
+    font-weight: 600 !important;
+    opacity: 0.95;
+}
+
+/* ========================================== */
+/* BUTTON STYLING                             */
+/* ========================================== */
+
+/* Update all accent colors to bright, visible cyan */
+.bg-primary {
+    background-color: #00BFFF !important;
+}
+
+.btn-primary,
+.btn-primary:active {
+    background-color: #00BFFF !important;
+    border-color: #00BFFF !important;
+    color: #0a0a0a !important;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active {
+    color: #0a0a0a !important;
+    background-color: #0099CC !important;
+    border-color: #0099CC !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 191, 255, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #0a0a0a !important;
+    background-color: #0099CC !important;
+    border-color: #0099CC !important;
+}
+
+.btn-primary-outline,
+.btn-primary-outline:active {
+    background: none;
+    border-color: #00BFFF;
+    color: #00BFFF;
+}
+
+.btn-primary-outline:hover,
+.btn-primary-outline:focus,
+.btn-primary-outline.focus,
+.btn-primary-outline.active {
+    color: #0a0a0a;
+    background-color: #00BFFF;
+    border-color: #00BFFF;
+}
+
+.btn-primary-outline.disabled,
+.btn-primary-outline:disabled {
+    color: #0a0a0a !important;
+    background-color: #00BFFF !important;
+    border-color: #00BFFF !important;
+}
+
+/* Update icon colors to bright cyan */
+.cid-svNCj4p2eV .mbr-iconfont {
+    color: #00BFFF !important;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* Enhance navbar text readability */
+.cid-svNAyN3Z1L .navbar-caption,
+.cid-svNAyN3Z1L .nav-link {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Make arrow indicator more visible with cyan glow and animation */
+.cid-svNAQrtPyA .mbr-arrow a {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.cid-svNAQrtPyA .mbr-arrow .mbr-iconfont {
+    color: #00BFFF !important;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.8)) drop-shadow(0 0 10px rgba(0, 191, 255, 0.6));
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Brighten social media icons significantly */
+.cid-svNAQrtPyA .social-icons a,
+.cid-svNAQrtPyA .social-icons .mbr-iconfont {
+    opacity: 0.95 !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8)) brightness(1.4) !important;
+}
+
+.cid-svNAQrtPyA .social-icons a:hover {
+    opacity: 1 !important;
+    color: #00BFFF !important;
+    filter: drop-shadow(2px 2px 6px rgba(0, 191, 255, 0.6)) brightness(1.5) !important;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Ensure social media icons remain readable with enhanced shadows */
+.social-icons a,
+.mbr-iconfont {
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.7));
+}
+
+/* Additional cyan accent applications throughout site */
+a:hover {
+    color: #00BFFF !important;
+}
+
+.text-primary {
+    color: #00BFFF !important;
+}
+
+/* Update progress bars and other accent elements */
+.progress-bar {
+    background-color: #00BFFF !important;
+}
+
+/* Form focus states */
+.form-control:focus {
+    border-color: #0088CC !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 136, 204, 0.25) !important;
+}
+
+/* Links in general content */
+section a:not(.btn) {
+    color: #0088CC;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+section a:not(.btn):hover {
+    color: #0066AA;
+    text-decoration: underline;
+}
+
+/* Media query adjustments for mobile */
+@media (max-width: 768px) {
+    .cid-svNAQrtPyA h1.mbr-section-title {
+        font-size: 2.5rem !important;
+    }
+    
+    .cid-svNAQrtPyA h1.mbr-section-title::before {
+        width: 100%;
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+    }
+    
+    .cid-svNAQrtPyA p.mbr-text {
+        font-size: 1.2rem !important;
+    }
+    
+    #back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cid-svNAQrtPyA h1.mbr-section-title {
+        font-size: 2rem !important;
+    }
+    
+    .cid-svNAQrtPyA p.mbr-text {
+        font-size: 1rem !important;
+    }
+}
+
+/* ========================================== */
+/* SECTION 1: INFO CARDS & COUNTDOWN STYLING */
+/* ========================================== */
+
+/* Change "Coming Soon!!" text from red to cyan */
+.counters .count[style*="color: #ff6b6b"],
+.counters .count[style*="color:#ff6b6b"] {
+    color: #00BFFF !important;
+    text-shadow: 0 2px 8px rgba(0, 191, 255, 0.3);
+    font-weight: 700;
+}
+
+/* Info cards hover effects */
+.counters .card {
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.counters .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 191, 255, 0.25);
+}
+
+.counters .card .panel-item {
+    transition: all 0.3s ease;
+}
+
+/* Improve countdown section balance */
+.countdown-cont {
+    padding: 40px 20px !important;
+}
+
+.countdown-cont > div:not(.countdown) {
+    font-size: 2rem !important;
+    color: #232323;
+    font-weight: 600;
+    margin: 0 15px;
+}
+
+.countdown {
+    font-size: 1.5rem !important;
+}
+
+/* Better styling for countdown numbers - make less overwhelming */
+.countdown-cont .daysCountdown,
+.countdown-cont .hoursCountdown,
+.countdown-cont .minutesCountdown,
+.countdown-cont .secondsCountdown {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 20px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.countdown-cont .daysCountdown:hover,
+.countdown-cont .hoursCountdown:hover,
+.countdown-cont .minutesCountdown:hover,
+.countdown-cont .secondsCountdown:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 191, 255, 0.2);
+}
+
+/* Black outline button improvements */
+.btn-black-outline,
+.btn-black-outline:active {
+    background: transparent !important;
+    border: 2px solid #333333 !important;
+    color: #333333 !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-black-outline::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(0, 191, 255, 0.1);
+    transform: translate(-50%, -50%);
+    transition: width 0.4s ease, height 0.4s ease;
+}
+
+.btn-black-outline:hover::before {
+    width: 300%;
+    height: 300%;
+}
+
+.btn-black-outline:hover,
+.btn-black-outline:focus {
+    background: rgba(0, 191, 255, 0.05) !important;
+    border-color: #00BFFF !important;
+    color: #00BFFF !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 191, 255, 0.25);
+}
+
+/* ========================================== */
+/* SECTION 2: ORGANIZING TEAM STYLING        */
+/* ========================================== */
+
+/* Make all team card backgrounds white with consistent styling */
+.team1 .team-item,
+.cid-svNOiKuPo2 .team-item {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+/* Team card item-caption background to white */
+.team1 .team-item .item-caption,
+.cid-svNOiKuPo2 .team-item .item-caption {
+    background: #ffffff !important;
+    padding: 1.5rem 1rem !important;
+}
+
+/* Team card hover effect */
+.team1 .team-item:hover,
+.cid-svNOiKuPo2 .team-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 191, 255, 0.15);
+}
+
+/* VISIBLE cyan text for organization names - darker for readability on white */
+.team1 code,
+.cid-svNOiKuPo2 code {
+    color: #0077BB !important; /* Dark cyan - highly visible on white */
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    font-size: 0.95rem !important;
+    font-weight: 700 !important; /* Bold for maximum visibility */
+    display: block !important;
+    margin-top: 0.5rem !important;
+}
+
+/* Add subtle bottom border to role section for visual separation */
+.team1 .item-role,
+.cid-svNOiKuPo2 .item-role {
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.team1 .item-role p,
+.cid-svNOiKuPo2 .item-role p {
+    font-size: 0.95rem;
+    color: #555555; /* Darker for better readability */
+    margin-bottom: 0.5rem !important;
+    font-weight: 500;
+}
+
+/* Social icons - dark grey for visibility, bright cyan on hover */
+.team1 .item-social .socicon,
+.cid-svNOiKuPo2 .item-social .socicon {
+    color: #555555 !important; /* Dark grey for visibility */
+    font-size: 22px !important;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.team1 .item-social a:hover .socicon,
+.cid-svNOiKuPo2 .item-social a:hover .socicon {
+    color: #00BFFF !important; /* Bright cyan on hover */
+    transform: translateY(-3px);
+}
+
+/* Image hover effect */
+.team1 .item-image,
+.cid-svNOiKuPo2 .item-image {
+    overflow: hidden;
+    position: relative;
+}
+
+.team1 .item-image img,
+.cid-svNOiKuPo2 .item-image img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    display: block;
+}
+
+.team1 .team-item:hover .item-image img,
+.cid-svNOiKuPo2 .team-item:hover .item-image img {
+    transform: scale(1.05);
+}
+
+/* Ensure consistent spacing */
+.team1 .item-name,
+.cid-svNOiKuPo2 .item-name {
+    margin-bottom: 0.5rem;
+}
+
+.team1 .item-name p,
+.cid-svNOiKuPo2 .item-name p {
+    color: #222222; /* Very dark for names - maximum visibility */
+    font-weight: 600;
+}
+
+/* Section title styling */
+.team1 .mbr-section-title,
+.cid-svNOiKuPo2 .mbr-section-title {
+    margin-bottom: 3rem;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+/* Responsive adjustments for team cards */
+@media (max-width: 768px) {
+    .team1 .team-item,
+    .cid-svNOiKuPo2 .team-item {
+        margin-bottom: 2rem;
+    }
+    
+    .team1 .team-item:hover,
+    .cid-svNOiKuPo2 .team-item:hover {
+        transform: translateY(-5px);
+    }
+}
+
+/* ========================================== */
+/* CONTACT SECTION STYLING                    */
+/* ========================================== */
+
+/* Contact section title */
+.contacts1 .title h2,
+.cid-svNWMusmoM .title h2 {
+    color: #1a1a1a;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+}
+
+/* Contact info labels - VISIBLE dark cyan */
+.contacts1 h5,
+.cid-svNWMusmoM h5 {
+    color: #0077BB !important; /* Same dark cyan as team section */
+    font-weight: 700 !important;
+    margin-bottom: 0.75rem;
+}
+
+/* Contact info text - darker for visibility */
+.contacts1 p,
+.cid-svNWMusmoM p {
+    color: #444444; /* Darker than before for better readability */
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/* Email link hover effect */
+.contacts1 a[href^="mailto"],
+.cid-svNWMusmoM a[href^="mailto"] {
+    color: #444444;
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.contacts1 a[href^="mailto"]:hover,
+.cid-svNWMusmoM a[href^="mailto"]:hover {
+    color: #00BFFF !important;
+    text-decoration: none;
+}
+
+/* Phone link styling */
+.contacts1 a[href^="tel"],
+.cid-svNWMusmoM a[href^="tel"] {
+    color: #444444;
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.contacts1 a[href^="tel"]:hover,
+.cid-svNWMusmoM a[href^="tel"]:hover {
+    color: #00BFFF !important;
+    text-decoration: none;
+}
+
+/* Left block (contact info) styling */
+.contacts1 .left-block,
+.cid-svNWMusmoM .left-block {
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Individual contact blocks */
+.contacts1 .b,
+.cid-svNWMusmoM .b {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.contacts1 .b:last-child,
+.cid-svNWMusmoM .b:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Google map styling */
+.contacts1 .google-map,
+.cid-svNWMusmoM .google-map {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: 450px;
+}
+
+.contacts1 .google-map iframe,
+.cid-svNWMusmoM .google-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Add subtle icon styling if you have icons */
+.contacts1 .mbr-iconfont,
+.cid-svNWMusmoM .mbr-iconfont {
+    color: #00BFFF;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contacts1 .left-block,
+    .cid-svNWMusmoM .left-block {
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+    }
+    
+    .contacts1 .google-map,
+    .cid-svNWMusmoM .google-map {
+        height: 350px;
+    }
+}
