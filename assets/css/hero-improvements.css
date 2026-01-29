@@ -871,3 +871,23 @@ section a:not(.btn):hover {
         height: 350px;
     }
 }
+
+/* ========================================== */
+/* WHITE OUTLINE BUTTON STYLE                 */
+/* ========================================== */
+
+.btn-white-outline,
+.btn-white-outline:active {
+    background: transparent !important;
+    border: 2px solid #e9ecef !important;
+    color: #6c757d !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-white-outline:hover,
+.btn-white-outline:focus {
+    background: #f8f9fa !important;
+    border-color: #dee2e6 !important;
+    color: #495057 !important;
+}
