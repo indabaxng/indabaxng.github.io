@@ -602,6 +602,47 @@
     margin-bottom: 0;
 }
 
+/* Publication badge styling */
+.publication-badge {
+    margin-top: 2rem;
+    padding: 1.25rem;
+    background: linear-gradient(135deg, #fff3e6 0%, #ffe8cc 100%);
+    border-radius: 8px;
+    border-left: 4px solid #ff9800;
+    text-align: center;
+}
+
+.publication-badge strong {
+    color: #e65100;
+    font-size: 1.15rem;
+}
+
+/* Enabled submission button */
+.submission-btn-enabled {
+    background: linear-gradient(135deg, #00BFFF 0%, #0088CC 100%) !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    animation: pulse-cta 2s infinite;
+}
+
+.submission-btn-enabled:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 191, 255, 0.4);
+    animation: none;
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
 /* ========================================== */
 /* RESPONSIVE DESIGN                          */
 /* ========================================== */
