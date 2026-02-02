@@ -718,3 +718,424 @@
         padding: 0.875rem 2rem;
     }
 }
+
+/* ========================================== */
+/* POSTER-SPECIFIC STYLES                     */
+/* ========================================== */
+
+/* Award badge */
+.award-badge {
+    margin-top: 2rem;
+    padding: 1.25rem;
+    background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+    border-radius: 8px;
+    border-left: 4px solid #ffa000;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.award-badge strong {
+    color: #e65100;
+}
+
+/* Topics grid */
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.topic-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 3px solid #00BFFF;
+    transition: all 0.3s ease;
+}
+
+.topic-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0, 191, 255, 0.15);
+}
+
+.topic-icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+}
+
+.topic-item p {
+    margin: 0;
+    color: #555555;
+    font-weight: 500;
+}
+
+/* Guidelines box */
+.guidelines-box {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+.guideline-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #0077BB;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.guideline-item:first-child {
+    margin-top: 0;
+}
+
+.guideline-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #00BFFF 0%, #0088CC 100%);
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.guidelines-box p {
+    color: #555555;
+    margin-left: 3.5rem;
+}
+
+.guidelines-box ul {
+    margin-left: 3.5rem;
+    color: #555555;
+}
+
+.guidelines-box li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .topics-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .guideline-item {
+        font-size: 1.1rem;
+    }
+    
+    .guidelines-box p,
+    .guidelines-box ul {
+        margin-left: 0;
+    }
+}
+
+/* ========================================== */
+/* OFFICIAL POSTER PAGE STYLING               */
+/* ========================================== */
+
+/* Simple theme box for poster page */
+.theme-box-simple {
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid #00BFFF;
+}
+
+.theme-box-simple h2 {
+    color: #1a1a1a;
+    font-weight: 800;
+}
+
+.theme-box-simple .theme-title {
+    color: #0077BB !important;
+    font-weight: 700 !important;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .theme-box-simple {
+        padding: 2rem 1.5rem;
+    }
+}
+
+/* Topics list - clean professional style */
+.topics-list {
+    margin: 1.5rem 0;
+}
+
+.topic-item-clean {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.topic-item-clean:last-child {
+    border-bottom: none;
+}
+
+.topic-item-clean .bullet {
+    color: #0077BB;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-shrink: 0;
+    line-height: 1.5;
+}
+
+.topic-item-clean p {
+    margin: 0;
+    color: #333333;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/* Official guidelines - clean structured blocks */
+.official-guidelines {
+    margin: 2rem 0;
+}
+
+.guideline-block {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.guideline-block:last-child {
+    border-bottom: none;
+}
+
+.guideline-block h4 {
+    color: #0077BB;
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+
+.guideline-block p {
+    color: #555555;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+}
+
+.guideline-block ul {
+    margin-top: 0.75rem;
+    padding-left: 2rem;
+}
+
+.guideline-block li {
+    color: #555555;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+}
+
+/* Award notice - simple and professional */
+.award-notice {
+    margin: 2rem 0;
+    padding: 1.25rem;
+    background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+    border-radius: 8px;
+    border-left: 4px solid #ffa000;
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+.award-notice strong {
+    color: #e65100;
+}
+
+/* Dates table - professional grid layout */
+.dates-table {
+    margin: 2rem 0;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.date-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #e9ecef;
+    transition: background 0.2s ease;
+}
+
+.date-row:last-child {
+    border-bottom: none;
+}
+
+.date-row:hover {
+    background: #f8f9fa;
+}
+
+.date-row.highlight-date {
+    background: linear-gradient(135deg, #e3f5ff 0%, #f0f9ff 100%);
+    border-left: 4px solid #00BFFF;
+}
+
+.date-label {
+    font-weight: 600;
+    color: #0077BB;
+    font-size: 1.05rem;
+}
+
+.date-value {
+    color: #333333;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-align: right;
+}
+
+/* Alert box adjustments for cleaner look */
+.alert-box.info {
+    background: #e8f4f8;
+    border-left: 4px solid #0077BB;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.alert-box .alert-content {
+    width: 100%;
+}
+
+.alert-box .alert-content strong {
+    color: #0077BB;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.alert-box .alert-content p {
+    margin: 0;
+    color: #555555;
+    line-height: 1.7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .date-row {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    
+    .date-value {
+        text-align: left;
+    }
+    
+    .topic-item-clean {
+        padding: 0.75rem 0;
+    }
+    
+    .guideline-block {
+        padding: 1.25rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .dates-table {
+        margin: 1.5rem 0;
+    }
+    
+    .date-row {
+        padding: 1rem 1.25rem;
+    }
+}
+
+/* ========================================== */
+/* REVIEWERS PAGE SPECIFIC STYLES             */
+/* ========================================== */
+
+/* Note boxes */
+.note-box {
+    background: #e3f5ff;
+    border-left: 4px solid #0077BB;
+    padding: 1.25rem;
+    border-radius: 6px;
+    margin: 1.5rem 0;
+}
+
+.note-box strong {
+    color: #0077BB;
+    font-size: 1.05rem;
+}
+
+.note-box p {
+    margin: 0;
+    color: #555555;
+    line-height: 1.7;
+}
+
+/* Subsection titles */
+.subsection-title {
+    color: #0077BB;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Eligibility list */
+.eligibility-list {
+    margin: 1.5rem 0;
+}
+
+.eligibility-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.eligibility-item:last-child {
+    border-bottom: none;
+}
+
+.check-icon {
+    color: #00BFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f5ff;
+    border-radius: 50%;
+}
+
+.eligibility-item p {
+    margin: 0;
+    color: #333333;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .eligibility-item {
+        padding: 0.75rem 0;
+    }
+    
+    .check-icon {
+        font-size: 1.3rem;
+        width: 28px;
+        height: 28px;
+    }
+}
