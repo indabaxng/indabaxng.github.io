@@ -1139,3 +1139,137 @@
         height: 28px;
     }
 }
+
+/* ========================================== */
+/* FREE APC NOTICE STYLING                    */
+/* ========================================== */
+
+.free-apc-notice {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1f8f4 100%);
+    border-left: 5px solid #4caf50;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.15);
+}
+
+.notice-icon {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #4caf50 0%, #66bb6a 100%);
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+}
+
+.notice-content {
+    flex: 1;
+}
+
+.notice-content strong {
+    display: block;
+    color: #2e7d32;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.notice-content p {
+    margin: 0;
+    color: #1b5e20;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .free-apc-notice {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1.25rem;
+    }
+    
+    .notice-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1.8rem;
+    }
+    
+    .notice-content strong {
+        font-size: 1.1rem;
+    }
+}
+
+/* ========================================== */
+/* SCIMAGO WIDGET STYLING                     */
+/* ========================================== */
+
+.scimago-widget-container {
+    margin: 2.5rem 0;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border-radius: 12px;
+    border: 2px solid #e9ecef;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.widget-title {
+    color: #0077BB;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.widget-content {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.scimago-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.widget-content:hover .scimago-img {
+    transform: scale(1.02);
+}
+
+.widget-caption {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #666666;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .scimago-widget-container {
+        padding: 1.5rem 1rem;
+    }
+    
+    .widget-title {
+        font-size: 1.2rem;
+    }
+    
+    .widget-content {
+        padding: 1rem;
+    }
+}
