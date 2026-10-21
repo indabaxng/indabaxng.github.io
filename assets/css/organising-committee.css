@@ -1,0 +1,92 @@
+/* IndabaX Nigeria 2026: Local Organising Committee section */
+
+.loc-section {
+    --loc-ink: #111c2e;
+    --loc-muted: #5b6577;
+    --loc-line: #e6e8ee;
+    --loc-accent: #0c8a4c;
+    --loc-bg: #f7f8fa;
+    padding: 6rem 0;
+    background: var(--loc-bg);
+    border-top: 1px solid var(--loc-line);
+}
+
+/* Heading */
+.loc-head { max-width: 760px; margin: 0 auto 3.25rem; text-align: center; }
+.loc-eyebrow { display: inline-flex; align-items: center; gap: .7rem; margin: 0 0 1rem; color: var(--loc-accent); font-size: .78rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+.loc-eyebrow::before, .loc-eyebrow::after { content: ""; width: 24px; height: 2px; background: currentColor; }
+.loc-section .loc-head h2 { margin: 0; padding: 0; color: var(--loc-ink); }
+.loc-intro { margin: 1.1rem auto 0; color: var(--loc-muted); font-size: 1.08rem; line-height: 1.7; }
+.loc-stats { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: .6rem; margin: 1.6rem 0 0; padding: 0; list-style: none; }
+.loc-stats li { padding: .5rem 1rem; color: var(--loc-muted); background: #fff; border: 1px solid var(--loc-line); border-radius: 999px; font-size: .9rem; }
+.loc-stats strong { color: var(--loc-ink); font-weight: 700; }
+
+/* Grid */
+.loc-grid { --loc-cols: 4; --loc-gap: 1.25rem; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--loc-gap); margin: 0; padding: 0; list-style: none; }
+.loc-grid > .loc-card { flex: 0 0 calc((100% - (var(--loc-cols) - 1) * var(--loc-gap)) / var(--loc-cols)); min-width: 0; }
+.loc-grid--three { --loc-cols: 3; }
+
+/* Card */
+.loc-card { box-sizing: border-box; display: flex; flex-direction: column; align-items: center; padding: 2rem 1.25rem 1.75rem; text-align: center; background: #fff; border: 1px solid var(--loc-line); border-radius: 14px; transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.loc-card:hover { transform: translateY(-4px); border-color: transparent; box-shadow: 0 14px 34px rgba(17, 28, 46, .1); }
+
+/* Compact cards help the 10-person program-chair grid fit cleanly. */
+#program-chairs { padding: 4.5rem 0; }
+#program-chairs .loc-head { margin-bottom: 2.25rem; }
+#program-chairs .loc-card { padding: 1.25rem .8rem 1.15rem; }
+#program-chairs .loc-card__avatar { width: 72px; height: 72px; margin-bottom: .85rem; }
+#program-chairs .loc-card__avatar span { font-size: 1.4rem; }
+#program-chairs .loc-card__name { font-size: .98rem; }
+#program-chairs .loc-card__org { font-size: .84rem; overflow-wrap: anywhere; }
+#program-chairs .loc-card__place { font-size: .76rem; }
+
+.loc-card__avatar { position: relative; display: grid; width: 96px; height: 96px; margin-bottom: 1.2rem; place-items: center; overflow: hidden; color: #fff; background: #1d3557; border-radius: 50%; box-shadow: 0 0 0 4px #fff, 0 0 0 5px var(--loc-line); }
+.loc-card__avatar span { font-size: 1.7rem; font-weight: 700; letter-spacing: .04em; line-height: 1; }
+.loc-card__avatar img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+
+/* Rotating tints so initials avatars don't all look the same */
+.loc-card:nth-child(7n+1) .loc-card__avatar { background: #1d3557; }
+.loc-card:nth-child(7n+2) .loc-card__avatar { background: #0c8a4c; }
+.loc-card:nth-child(7n+3) .loc-card__avatar { background: #7b4b94; }
+.loc-card:nth-child(7n+4) .loc-card__avatar { background: #c2572b; }
+.loc-card:nth-child(7n+5) .loc-card__avatar { background: #13788a; }
+.loc-card:nth-child(7n+6) .loc-card__avatar { background: #a33b5c; }
+.loc-card:nth-child(7n+7) .loc-card__avatar { background: #4d5d22; }
+
+.loc-section .loc-card__name { margin: 0; color: var(--loc-ink); font-size: 1.08rem; font-weight: 700; line-height: 1.35; }
+.loc-card__org { margin: .45rem 0 0; color: var(--loc-muted); font-size: .93rem; line-height: 1.45; }
+.loc-card__place { margin: .3rem 0 0; color: #8a93a3; font-size: .82rem; font-weight: 500; letter-spacing: .02em; }
+
+/* Five across on wide screens (used for groups of 10) */
+@media (min-width: 1200px) {
+    .loc-grid--five { --loc-cols: 5; --loc-gap: 1rem; }
+    .loc-grid--five .loc-card { padding-left: 1rem; padding-right: 1rem; }
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .loc-grid { --loc-cols: 3; }
+}
+@media (max-width: 767px) {
+    .loc-section { padding: 4.5rem 0; }
+    .loc-head { margin-bottom: 2.5rem; }
+    .loc-grid { --loc-cols: 2; --loc-gap: .85rem; }
+    .loc-eyebrow::before, .loc-eyebrow::after { display: none; }
+    .loc-eyebrow { font-size: .72rem; }
+    .loc-card { padding: 1.5rem .85rem 1.35rem; }
+    .loc-card__avatar { width: 76px; height: 76px; margin-bottom: 1rem; }
+    .loc-card__avatar span { font-size: 1.35rem; }
+    .loc-section .loc-card__name { font-size: .98rem; }
+    .loc-card__org { font-size: .86rem; }
+    #program-chairs { padding: 3.75rem 0; }
+    #program-chairs .loc-head { margin-bottom: 1.75rem; }
+    #program-chairs .loc-card { padding: 1.15rem .7rem 1rem; }
+    #program-chairs .loc-card__avatar { width: 64px; height: 64px; margin-bottom: .75rem; }
+}
+@media (max-width: 380px) {
+    .loc-grid { --loc-cols: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loc-card { transition: none; }
+    .loc-card:hover { transform: none; }
+}
