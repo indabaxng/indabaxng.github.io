@@ -76,9 +76,9 @@
         }
     }
 
-    /* Programme tabs */
-    var tabs = $$('.pf-tab');
-    if (tabs.length) {
+    /* Tabs: programme days and organising groups. Each tablist works on its own. */
+    var setupTabs = function (tabs) {
+        if (!tabs.length) return null;
         var selectTab = function (selectedTab, focus) {
             tabs.forEach(function (tab) {
                 var active = tab === selectedTab;
@@ -99,12 +99,19 @@
                 if (event.key === 'End') next = tabs[tabs.length - 1];
                 if (next) { event.preventDefault(); selectTab(next, true); }
             });
-            if (tab.getAttribute('data-date') === today) {
-                selectTab(tab, false);
-                tab.classList.add('is-today');
-            }
         });
-    }
+        return selectTab;
+    };
+
+    var dayTabs = $$('.pf-tab');
+    var selectDay = setupTabs(dayTabs);
+    dayTabs.forEach(function (tab) {
+        if (tab.getAttribute('data-date') === today) {
+            selectDay(tab, false);
+            tab.classList.add('is-today');
+        }
+    });
+    setupTabs($$('.pf-orgtab'));
 
     /* X timeline. It only renders for visitors signed in to X, so everyone else gets the featured posts. */
     var feed = $('.pf-feed');
